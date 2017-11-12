@@ -1,19 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
+  
   <title>Test Page: Don't Panic</title>
+  
+  
+    <meta name="description" content="This is a dangerous site.">
+  
+  <link href="/favicon.png" rel="icon">
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/fonts/font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100"> 
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
 
   <body>
     <header class="header">
   <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+    <label for="mobile-menu" class="show-mobile-menu">Menu</label>
     <ul class="header-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <span class="drop-trigger">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2017/10/15/new-beginning.html">New Beginning</a></li>
+    
+      <li><a href="/2017/10/14/second-post.html">Second Post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2017/10/15/new-beginning.html">Newest Post</a></li>
 
     </ul>
@@ -31,13 +53,19 @@
       <h1>CODE DANGEROUSLY</h1>
       <ul class="social-list">
         <li>
-          <a href="http://example.com/" class="social-link">Fb</a>
+          <a href="https://facebook.com/learnenough" class="social-link">
+            <span class="fa fa-facebook"></span>
+          </a>
         </li>
         <li>
-          <a href="http://example.com/" class="social-link">Tw</a>
+          <a href="https://twitter.com/learnenough" class="social-link">
+            <span class="fa fa-twitter"></span>
+          </a>
         </li>
         <li>
-          <a href="http://example.com/" class="social-link">Gh</a>
+          <a href="https:/github.com/learnenough" class="social-link">
+            <span class="fa fa-github"></span>
+          </a>
         </li>
       </ul>
     </div>
@@ -118,7 +146,7 @@ the spleen and regulating the circulation.</p>
         <img src="http://placekitten.com/g/400/400">
         <h3>Michael Hartl</h3>
         <a href="http://twitter.com/mhartl" class="social-link">
-          Tw
+          <span class="fa fa-twitter"></span>
         </a>
         <div class="bio-copy">
           <p>
@@ -142,7 +170,7 @@ the spleen and regulating the circulation.</p>
         <img src="http://placekitten.com/g/400/400">
         <h3>Lee Donahoe</h3>
         <a href="https://twitter.com/leedonahoe" class="social-link">
-          Tw
+          <span class="fa fa-twitter"></span>
         </a>
         <div class="bio-copy">
           <p>
@@ -157,7 +185,7 @@ the spleen and regulating the circulation.</p>
         <img src="http://placekitten.com/g/400/400">
         <h3>Nick Merwin</h3>
         <a href="https://twitter.com/nickmerwin" class="social-link">
-          Tw
+          <span class="fa fa-twitter"></span>
         </a>
         <div class="bio-copy">
           <p>
@@ -183,7 +211,17 @@ the spleen and regulating the circulation.</p>
     <ul class="footer-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <span class="drop-trigger">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2017/10/15/new-beginning.html">New Beginning</a></li>
+    
+      <li><a href="/2017/10/14/second-post.html">Second Post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2017/10/15/new-beginning.html">Newest Post</a></li>
 
     </ul>
